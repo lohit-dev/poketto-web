@@ -45,8 +45,14 @@ class ThemeStore {
       const t = localStorage.getItem('poketto-theme') as 'light' | 'dark' | null;
       const p = localStorage.getItem('poketto-pal') as PaletteKey | null;
       if (t) this.setTheme(t);
-      if (p && p in PALETTES) this.setPalette(p);
-    } catch { /* storage unavailable */ }
+      if (p && p in PALETTES) {
+        this.setPalette(p);
+      } else {
+        this.setPalette('sapphire');
+      }
+    } catch {
+      this.setPalette('sapphire');
+    }
   }
 }
 
