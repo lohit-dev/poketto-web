@@ -7,7 +7,10 @@
     <div class="sec-head">
       <span class="kicker">Inside Poketto</span>
       <h2>Small taps. Clear answers.</h2>
-      <p>Add what you spent, watch the picture update, and keep your budget on track without digging through menus.</p>
+      <p>
+        Add what you spent, watch the picture update, and keep your budget on track without digging
+        through menus.
+      </p>
     </div>
     <div class="bento">
       <article class="tile t-a">
@@ -43,7 +46,10 @@
       <article class="tile t-c">
         <div class="txt">
           <h3>Budgets, set up for you</h3>
-          <p>A monthly budget split across the categories you actually spend on, so you see where you stand.</p>
+          <p>
+            A monthly budget split across the categories you actually spend on, so you see where you
+            stand.
+          </p>
         </div>
         <img
           class="shot"
@@ -60,7 +66,14 @@
         <p>Poketto keeps your numbers on your device.</p>
         <ul class="offline-list">
           <li>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
               <path d="M2 8.8a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0" />
               <circle cx="12" cy="19.5" r="1" fill="currentColor" />
               <path d="M3 3l18 18" />
@@ -68,15 +81,31 @@
             Works fully offline
           </li>
           <li>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
               <rect x="5" y="3" width="14" height="18" rx="3" />
               <path d="M10 18h4" />
             </svg>
             Nothing leaves your phone
           </li>
           <li>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 11v3M8 6.5a6 6 0 0 1 8 0M5.5 10a9 9 0 0 1 13 0M8 14.5c0 3 1 4.5 2 6M16 14c0 3-1 5-3 7" />
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 11v3M8 6.5a6 6 0 0 1 8 0M5.5 10a9 9 0 0 1 13 0M8 14.5c0 3 1 4.5 2 6M16 14c0 3-1 5-3 7"
+              />
             </svg>
             App lock with biometrics
           </li>

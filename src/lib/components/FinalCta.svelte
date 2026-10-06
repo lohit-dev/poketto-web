@@ -16,7 +16,9 @@
           rel="noopener noreferrer"
         >
           <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M5 3.4v17.2a1 1 0 0 0 1.5.86l14.2-8.6a1 1 0 0 0 0-1.72L6.5 2.54A1 1 0 0 0 5 3.4Z" />
+            <path
+              d="M5 3.4v17.2a1 1 0 0 0 1.5.86l14.2-8.6a1 1 0 0 0 0-1.72L6.5 2.54A1 1 0 0 0 5 3.4Z"
+            />
           </svg>
           <span>
             <small>Get it on</small>

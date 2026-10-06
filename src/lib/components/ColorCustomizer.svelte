@@ -10,7 +10,8 @@
       <span class="kicker">Material You</span>
       <h2>Your wallpaper, your colors.</h2>
       <p class="lede" style="margin-top:14px">
-        Poketto follows your Android theme. Pick a wallpaper and every screen re-colors. Try a palette here and watch this page change with it.
+        Poketto follows your Android theme. Pick a wallpaper and every screen re-colors. Try a
+        palette here and watch this page change with it.
       </p>
       <div class="swatches" id="swatches" role="group" aria-label="Palette">
         {#each paletteEntries as [key, [primaryHex, secondaryHex]]}

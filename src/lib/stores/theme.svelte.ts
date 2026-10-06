@@ -4,17 +4,17 @@
 
 export const PALETTES = {
   sapphire: ['2051D9', '9FEBDA'],
-  meadow:   ['49835C', 'D3E9EE'],
-  sunset:   ['9D572F', 'E8EED3'],
-  orchid:   ['83497E', 'EED3D5'],
-  crimson:  ['8C4046', 'EEE7D3'],
+  meadow: ['49835C', 'D3E9EE'],
+  sunset: ['9D572F', 'E8EED3'],
+  orchid: ['83497E', 'EED3D5'],
+  crimson: ['8C4046', 'EEE7D3'],
 } as const;
 
 export type PaletteKey = keyof typeof PALETTES;
 
 class ThemeStore {
-  pal          = $state<PaletteKey>('sapphire');
-  manualTheme  = $state<'light' | 'dark' | null>(null);
+  pal = $state<PaletteKey>('sapphire');
+  manualTheme = $state<'light' | 'dark' | null>(null);
 
   // What mode is actually showing right now (manual override OR system preference)
   get effectiveMode(): 'light' | 'dark' {
@@ -26,13 +26,21 @@ class ThemeStore {
   setPalette(p: PaletteKey) {
     this.pal = p;
     document.documentElement.setAttribute('data-pal', p);
-    try { localStorage.setItem('poketto-pal', p); } catch { /* private/restricted mode */ }
+    try {
+      localStorage.setItem('poketto-pal', p);
+    } catch {
+      /* private/restricted mode */
+    }
   }
 
   setTheme(t: 'light' | 'dark') {
     this.manualTheme = t;
     document.documentElement.setAttribute('data-theme', t);
-    try { localStorage.setItem('poketto-theme', t); } catch { /* private/restricted mode */ }
+    try {
+      localStorage.setItem('poketto-theme', t);
+    } catch {
+      /* private/restricted mode */
+    }
   }
 
   toggleTheme() {

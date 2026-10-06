@@ -8,13 +8,16 @@
     <div>
       <span class="eyebrow">
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M17.6 9.5 19 7.2a.5.5 0 0 0-.87-.5l-1.4 2.4A8.6 8.6 0 0 0 12 8c-1.7 0-3.3.4-4.7 1.1L5.9 6.7a.5.5 0 0 0-.87.5L6.4 9.5A7.4 7.4 0 0 0 3 15h18a7.4 7.4 0 0 0-3.4-5.5ZM8.5 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm7 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
+          <path
+            d="M17.6 9.5 19 7.2a.5.5 0 0 0-.87-.5l-1.4 2.4A8.6 8.6 0 0 0 12 8c-1.7 0-3.3.4-4.7 1.1L5.9 6.7a.5.5 0 0 0-.87.5L6.4 9.5A7.4 7.4 0 0 0 3 15h18a7.4 7.4 0 0 0-3.4-5.5ZM8.5 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm7 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+          />
         </svg>
         Made for Android
       </span>
       <h1>Know where your <em>money</em> goes.</h1>
       <p class="lede">
-        Poketto is an offline expense tracker with analytics that make sense. Spending, what’s left and your daily average, in one glance.
+        Poketto is an offline expense tracker with analytics that make sense. Spending, what’s left
+        and your daily average, in one glance.
       </p>
       <div class="cta-row">
         <a
@@ -24,7 +27,9 @@
           rel="noopener noreferrer"
         >
           <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M5 3.4v17.2a1 1 0 0 0 1.5.86l14.2-8.6a1 1 0 0 0 0-1.72L6.5 2.54A1 1 0 0 0 5 3.4Z" />
+            <path
+              d="M5 3.4v17.2a1 1 0 0 0 1.5.86l14.2-8.6a1 1 0 0 0 0-1.72L6.5 2.54A1 1 0 0 0 5 3.4Z"
+            />
           </svg>
           <span>
             <small>Get it on</small>

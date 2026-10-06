@@ -13,8 +13,12 @@
 </script>
 
 <svelte:window
-  onkeydown={(e) => { if (e.key === 'Escape') closeMenu(); }}
-  onresize={() => { if (typeof window !== 'undefined' && window.innerWidth > 900) closeMenu(); }}
+  onkeydown={(e) => {
+    if (e.key === 'Escape') closeMenu();
+  }}
+  onresize={() => {
+    if (typeof window !== 'undefined' && window.innerWidth > 900) closeMenu();
+  }}
 />
 
 <header class="top">
@@ -36,7 +40,13 @@
       aria-controls="menuPanel"
       onclick={toggleMenu}
     >
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.4"
+        stroke-linecap="round"
+      >
         <path d="M4 7h16M4 12h16M4 17h16" />
       </svg>
     </button>
@@ -48,7 +58,9 @@
       onclick={() => themeStore.toggleTheme()}
     >
       <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M12 3a9 9 0 1 0 9 9c0-.5-.05-1-.14-1.47A5.5 5.5 0 0 1 13.47 3.14 9.1 9.1 0 0 0 12 3Z" />
+        <path
+          d="M12 3a9 9 0 1 0 9 9c0-.5-.05-1-.14-1.47A5.5 5.5 0 0 1 13.47 3.14 9.1 9.1 0 0 0 12 3Z"
+        />
       </svg>
     </button>
     <a
@@ -58,7 +70,9 @@
       rel="noopener noreferrer"
     >
       <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M5 3.4v17.2a1 1 0 0 0 1.5.86l14.2-8.6a1 1 0 0 0 0-1.72L6.5 2.54A1 1 0 0 0 5 3.4Z" />
+        <path
+          d="M5 3.4v17.2a1 1 0 0 0 1.5.86l14.2-8.6a1 1 0 0 0 0-1.72L6.5 2.54A1 1 0 0 0 5 3.4Z"
+        />
       </svg>
       <span>
         <small>Get it on</small>
