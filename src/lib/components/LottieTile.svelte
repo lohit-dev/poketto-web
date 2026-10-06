@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { themeStore } from '../stores/theme.svelte';
+  import { themeStore } from "../stores/theme.svelte";
 
   let container: HTMLDivElement | undefined = $state();
   let hasAnimation = $state(false);
@@ -12,7 +12,11 @@
 
     async function load() {
       // Ensure the browser and container are ready
-      if (!container || typeof window === 'undefined' || !(window as any).lottie) {
+      if (
+        !container ||
+        typeof window === "undefined" ||
+        !(window as any).lottie
+      ) {
         return;
       }
 
@@ -23,13 +27,13 @@
 
         // Clear container contents before mounting SVG animation
         if (container) {
-          container.innerHTML = '';
+          container.innerHTML = "";
           anim = (window as any).lottie.loadAnimation({
             container,
-            renderer: 'svg',
+            renderer: "svg",
             loop: true,
             autoplay: true,
-            animationData
+            animationData,
           });
           hasAnimation = true;
         }
@@ -50,7 +54,11 @@
   });
 </script>
 
-<div bind:this={container} class="tile-anim" aria-label="Poketto app animated icon">
+<div
+  bind:this={container}
+  class="tile-anim"
+  aria-label="Poketto app animated icon"
+>
   {#if !hasAnimation}
     <img src="/img/icon.png" alt="Poketto app icon" width="132" height="132" />
   {/if}
