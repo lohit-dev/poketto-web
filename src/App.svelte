@@ -9,10 +9,8 @@
   import Footer from './lib/components/Footer.svelte';
 
   onMount(() => {
-    // Restore saved theme and palette preferences on app mount
     themeStore.init();
 
-    // Listen for system appearance preference changes when not manually overridden
     const mq = window.matchMedia('(prefers-color-scheme: dark)');
     const handleSystemThemeChange = () => {
       if (!themeStore.manualTheme) {

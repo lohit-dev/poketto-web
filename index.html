@@ -2,15 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/img/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poketto — Know where your money goes</title>
     <meta
       name="description"
       content="Poketto is an offline expense tracker with analytics that make sense. Spending, what's left and your daily average, in one glance."
     />
-    <title>Poketto — Know where your money goes</title>
+    <meta
+      name="keywords"
+      content="Poketto, expense tracker, budget app, personal finance, offline tracker, Material You, Android"
+    />
+    <meta name="theme-color" content="#2051D9" />
 
-    <!-- Roboto Flex from Google Fonts (replaces the giant base64 font in the original) -->
+    <link rel="icon" type="image/png" sizes="256x256" href="/img/icon.png" />
+    <link rel="apple-touch-icon" href="/img/icon.png" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Poketto — Know where your money goes" />
+    <meta
+      property="og:description"
+      content="Poketto is an offline expense tracker with analytics that make sense. Spending, what's left and your daily average, in one glance."
+    />
+    <meta property="og:image" content="/img/icon.png" />
+    <meta property="og:site_name" content="Poketto" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Poketto — Know where your money goes" />
+    <meta
+      name="twitter:description"
+      content="Poketto is an offline expense tracker with analytics that make sense. Spending, what's left and your daily average, in one glance."
+    />
+    <meta name="twitter:image" content="/img/icon.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Poketto",
+        "operatingSystem": "Android",
+        "applicationCategory": "FinanceApplication",
+        "description": "Offline expense tracker with analytics that make sense. Spending, what's left and your daily average, in one glance.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0"
+        },
+        "installUrl": "https://play.google.com/store/apps/details?id=com.king_grey.pockit"
+      }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,8 +63,6 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
-
-    <!-- Lottie for icon tile animations. Loaded globally so components can use window.lottie -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
   </body>
 </html>
