@@ -55,16 +55,16 @@
     <div class="hero">
       <div class="box">
         <h1>Terms of Service</h1>
-        <p>
-          Simple, fair terms for using the Poketto app. Please read them before using the app.
-        </p>
-        <span class="date">Last updated: November 19, 2026</span>
+        <p>Simple, fair terms for using the Poketto app. Please read them before using the app.</p>
+        <span class="date">Last updated: November 19, 2026 (v2)</span>
       </div>
     </div>
 
     <div class="tldr">
-      <strong>In short:</strong> Poketto is a free, offline expense tracker. You own your data.
-      Use the app responsibly and don't misuse it. That's the gist of it.
+      <strong>In short:</strong> Poketto is free to download. A one-time
+      <strong>Pro upgrade</strong>
+      (purchased through Google Play) unlocks extra features. All billing is handled by Google — I never
+      see your payment details. Your data always stays on your device.
     </div>
 
     <section>
@@ -79,23 +79,25 @@
     <section>
       <h2>2. About the App</h2>
       <p>
-        Poketto is a personal expense-tracking application for Android, developed by Dinavahi
-        Lohith Sai, publishing as King Grey ("I", "me", "Developer"). The App is designed to help
-        you track your personal finances entirely offline — no account is required and no data
-        leaves your device.
+        Poketto is a personal expense-tracking application for Android, developed by Dinavahi Lohith
+        Sai, publishing as King Grey ("I", "me", "Developer"). The App is designed to help you track
+        your personal finances entirely offline — no account is required and no data leaves your
+        device.
       </p>
     </section>
 
     <section>
       <h2>3. License to Use</h2>
       <p>
-        Subject to these Terms, I grant you a personal, non-exclusive, non-transferable,
-        revocable, and limited license to install and use the App on Android devices you own or
-        control, solely for your personal, non-commercial purposes.
+        Subject to these Terms, I grant you a personal, non-exclusive, non-transferable, revocable,
+        and limited license to install and use the App on Android devices you own or control, solely
+        for your personal, non-commercial purposes.
       </p>
       <p style="margin-top: 10px;">You may <strong>not</strong>:</p>
       <ul>
-        <li>Copy, modify, or distribute the App or its source code without prior written permission</li>
+        <li>
+          Copy, modify, or distribute the App or its source code without prior written permission
+        </li>
         <li>Reverse-engineer, decompile, or disassemble the App</li>
         <li>Sublicense, sell, or rent the App to any third party</li>
         <li>Use the App for any unlawful or fraudulent purpose</li>
@@ -110,27 +112,80 @@
         transmit, or store your personal financial data on any server.
       </p>
       <p style="margin-top: 10px;">
-        You are solely responsible for backing up your data. If you uninstall the App or clear
-        its storage, your data will be permanently deleted and cannot be recovered by me.
+        You are solely responsible for backing up your data. If you uninstall the App or clear its
+        storage, your data will be permanently deleted and cannot be recovered by me.
       </p>
     </section>
 
     <section>
-      <h2>5. No Warranty</h2>
+      <h2>5. Pro Upgrade &amp; Payments</h2>
       <p>
-        The App is provided <strong>"as is"</strong> and <strong>"as available"</strong>, without
-        warranty of any kind, express or implied. To the fullest extent permitted by law, I
-        disclaim all warranties, including but not limited to implied warranties of
-        merchantability, fitness for a particular purpose, and non-infringement.
+        Poketto offers a <strong>one-time, optional Pro upgrade</strong> available as an in-app purchase
+        through Google Play. The Pro upgrade unlocks additional features, including but not limited to:
+      </p>
+      <ul>
+        <li>Exporting and importing your data (backup &amp; restore between devices)</li>
+        <li>Tracking recurring payments and scheduled expenses</li>
+        <li>Any other premium features added in future updates</li>
+      </ul>
+      <p style="margin-top: 10px;">
+        <strong>All payments are processed exclusively by Google Play.</strong> I do not collect,
+        store, or process your payment information at any point. Your purchase is subject to
+        <a
+          href="https://play.google.com/about/play-terms/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google Play's Terms of Service
+        </a>
+        and billing policies.
       </p>
       <p style="margin-top: 10px;">
-        I do not warrant that the App will be error-free, uninterrupted, or free of bugs. Use of
-        the App is at your own risk.
+        The Pro upgrade is a <strong>one-time purchase</strong> — there is no recurring subscription or
+        automatic charge. Once purchased, Pro features are yours permanently on any device linked to the
+        same Google Play account.
+      </p>
+      <p style="margin-top: 10px;">
+        Prices are set in Google Play and may vary by region. I reserve the right to change the
+        price of the Pro upgrade at any time; existing purchasers are not affected.
       </p>
     </section>
 
     <section>
-      <h2>6. Limitation of Liability</h2>
+      <h2>6. Refund Policy</h2>
+      <p>
+        Because all purchases are processed by Google Play, refunds are governed by
+        <a
+          href="https://support.google.com/googleplay/answer/2479637"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google Play's refund policy
+        </a>. You may be eligible for a refund within the window defined by Google Play.
+      </p>
+      <p style="margin-top: 10px;">
+        I do not independently process refunds. If you have a billing issue, please contact Google
+        Play support. If you have a question about Pro features, feel free to email me at
+        <a href="mailto:kinggreydev@gmail.com">kinggreydev@gmail.com</a> and I'll do my best to help.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. No Warranty</h2>
+      <p>
+        The App is provided <strong>"as is"</strong> and <strong>"as available"</strong>, without
+        warranty of any kind, express or implied. To the fullest extent permitted by law, I disclaim
+        all warranties, including but not limited to implied warranties of merchantability, fitness
+        for a particular purpose, and non-infringement.
+      </p>
+      <p style="margin-top: 10px;">
+        I do not warrant that the App will be error-free, uninterrupted, or free of bugs. Use of the
+        App is at your own risk.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Limitation of Liability</h2>
       <p>
         To the maximum extent permitted by applicable law, I shall not be liable for any indirect,
         incidental, special, consequential, or punitive damages, including but not limited to loss
@@ -140,36 +195,36 @@
     </section>
 
     <section>
-      <h2>7. Changes to the App</h2>
+      <h2>9. Changes to the App</h2>
       <p>
-        I may update, modify, or discontinue the App (or any part of it) at any time without
-        notice. I am not liable to you or any third party for any modification, suspension, or
+        I may update, modify, or discontinue the App (or any part of it) at any time without notice.
+        I am not liable to you or any third party for any modification, suspension, or
         discontinuation of the App.
       </p>
     </section>
 
     <section>
-      <h2>8. Changes to These Terms</h2>
+      <h2>10. Changes to These Terms</h2>
       <p>
-        I may update these Terms from time to time. When I do, I will revise the "Last updated"
-        date at the top of this page. Continued use of the App after any changes constitutes your
-        acceptance of the new Terms. If you disagree with updated Terms, you may stop using the
-        App and uninstall it.
+        I may update these Terms from time to time. When I do, I will revise the "Last updated" date
+        at the top of this page. Continued use of the App after any changes constitutes your
+        acceptance of the new Terms. If you disagree with updated Terms, you may stop using the App
+        and uninstall it.
       </p>
     </section>
 
     <section>
-      <h2>9. Governing Law</h2>
+      <h2>11. Governing Law</h2>
       <p>
-        These Terms shall be governed by and construed in accordance with the laws of India,
-        without regard to its conflict of law principles. Any disputes arising from these Terms
-        or your use of the App shall be subject to the exclusive jurisdiction of the courts
-        located in Andhra Pradesh, India.
+        These Terms shall be governed by and construed in accordance with the laws of India, without
+        regard to its conflict of law principles. Any disputes arising from these Terms or your use
+        of the App shall be subject to the exclusive jurisdiction of the courts located in Andhra
+        Pradesh, India.
       </p>
     </section>
 
     <section>
-      <h2>10. Contact</h2>
+      <h2>12. Contact</h2>
       <p>
         If you have any questions or concerns about these Terms, feel free to reach out:<br />
         Developer: Dinavahi Lohith Sai (King Grey)<br />
