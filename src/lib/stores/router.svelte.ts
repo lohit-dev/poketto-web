@@ -14,6 +14,8 @@ class RouterStore {
     const hash = window.location.hash;
     if (path === '/privacy' || path.endsWith('/privacy.html') || hash === '#privacy') {
       this.currentPath = '/privacy';
+    } else if (path === '/terms' || path.endsWith('/terms.html') || hash === '#terms') {
+      this.currentPath = '/terms';
     } else {
       this.currentPath = '/';
     }

@@ -9,6 +9,7 @@
   import FinalCta from './lib/components/FinalCta.svelte';
   import Footer from './lib/components/Footer.svelte';
   import PrivacyPolicy from './lib/components/PrivacyPolicy.svelte';
+  import TermsOfService from './lib/components/TermsOfService.svelte';
 
   onMount(() => {
     themeStore.init();
@@ -28,6 +29,8 @@
 
 {#if router.currentPath === '/privacy'}
   <PrivacyPolicy />
+{:else if router.currentPath === '/terms'}
+  <TermsOfService />
 {:else}
   <Header />
 
